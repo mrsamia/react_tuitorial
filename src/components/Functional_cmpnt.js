@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Functional_cmpnt() {
+function Functional_cmpnt(props) {
     return (
         <div>
-            <h1>Im from functional component</h1>
+            <h1>Hello I'm {props.name} and i'm from {props.country}</h1>
         </div>
     );
 }

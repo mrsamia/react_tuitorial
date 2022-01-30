@@ -4,7 +4,9 @@ import Arrow_function from './components/Arrow_function';
 import Button_event_Handlr from './components/Button_event_Handlr';
 import Functional_cmpnt from './components/Functional_cmpnt';
 import Arrow_fnctn_clck_evnt from './components/Arrow_fnctn_clck_evnt';
-
+import Button from './components/Button';
+import State from './components/State';
+import State_2_practice from './components/State_2_practice';
 
 function App() {
   return (
@@ -13,7 +15,13 @@ function App() {
       <Functional_cmpnt name="samia" country="Bangla"/>
       <Button_event_Handlr/><br></br>
       <Arrow_function/><br></br>
-     <Arrow_fnctn_clck_evnt/>
+     <Arrow_fnctn_clck_evnt/><br></br>
+     
+     <Button name="Props Button 1"/><br></br>
+     <Button name="Props Button 2"/>
+     <State/>
+     <State_2_practice/>
+     
      
     </div>
   );

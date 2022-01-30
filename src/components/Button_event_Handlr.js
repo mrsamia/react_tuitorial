@@ -18,11 +18,11 @@ function onclck(a){
             <div>
                 {/* onclick event handler
                 // button click event */}
-            <button className='btn btn-primary' onClick={onclckk}>Learn More</button>
+            <button className='btn btn-primary' onClick={onclckk}>click event</button>
             </div><br></br>
             <div>
                  {/*Passing argument with onclick event handler */}
-            <button className='btn btn-danger'  onClick={onclck.bind(this,"This button is clicked")}>Read More</button>
+            <button className='btn btn-danger'  onClick={onclck.bind(this,"This button is clicked")}>Passing argument</button>
             </div>
             
         </div>

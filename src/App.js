@@ -1,4 +1,4 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Button_event_Handlr from './components/Button_event_Handlr';
 import Functional_cmpnt from './components/Functional_cmpnt';

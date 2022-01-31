@@ -8,6 +8,7 @@ import Button from './components/Button';
 import State from './components/State';
 import State_2_practice from './components/State_2_practice';
 import State_practice_3 from './components/State_practice_3';
+import Set_state from './components/Set_state';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
      <State/>
      <State_2_practice/>
      <State_practice_3/>
-     
+     <Set_state/>
      
     </div>
   );

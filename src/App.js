@@ -7,6 +7,7 @@ import Arrow_fnctn_clck_evnt from './components/Arrow_fnctn_clck_evnt';
 import Button from './components/Button';
 import State from './components/State';
 import State_2_practice from './components/State_2_practice';
+import State_practice_3 from './components/State_practice_3';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
      <Button name="Props Button 2"/>
      <State/>
      <State_2_practice/>
+     <State_practice_3/>
      
      
     </div>

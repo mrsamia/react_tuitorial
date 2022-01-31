@@ -32,10 +32,6 @@ constructor(){
 
 }}
 
-
-
-
-
     render() {
         return (
             <div>

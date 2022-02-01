@@ -1,9 +1,9 @@
 
-const Arrow_function = () => {
+const Arrrow_function = () => {
     return (
         <div>
             <button className="btn btn-secondary">Arrow function</button>
         </div>
     );
 }
-export default Arrow_function;
+export default Arrrow_function;

@@ -12,6 +12,15 @@ import Set_state from './components/Set_state';
 import Conditional_return from './components/Conditional_return';
 import Conditional_return_2 from './components/Conditional_return_2';
 import Condition_prac_3 from './components/Condition_prac_3';
+import Header from './component_practice/Header';
+import Buttton from './component_practice/Buttton';
+import Click_event from './component_practice/Click_event';
+import Passing_argu from './component_practice/Passing_argu';
+import Arrrow_function from './component_practice/Arrrow_function';
+import Sttate from './component_practice/Sttate';
+import SET_STATE from './component_practice/SET_STATE';
+import Condittion from './component_practice/Condittion';
+
 
 function App() {
   return (
@@ -50,6 +59,25 @@ function App() {
         <Conditional_return_2 condition={false} />
         <Condition_prac_3 condition={false} />
         <Condition_prac_3 condition={true} />
+      </div>
+
+      <div className="mt-5 mb-5">
+      <h1>This is Practice Part</h1>
+      <Header name="One"/>
+      <Buttton name="Read more"/><br></br>
+
+      <h6>Click event is not working</h6>
+      <Click_event/><br></br>
+
+      <h6>Passing argument with onclick event handler is not working</h6>
+      <Passing_argu/><br></br>
+
+
+      <Arrrow_function/><br></br>
+      <Sttate/><br></br>
+      <SET_STATE/><br></br>
+      <Condittion condition={true}/>
+      <Condittion condition={false}/>
       </div>
 
     </div>

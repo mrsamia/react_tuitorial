@@ -36,9 +36,9 @@ constructor(){
         return (
             <div>
                 
-            <h2>{this.state.name.title.one}</h2>
-            <h2>{this.state.data.title.one}</h2>
-            <h4>{this.state.data.subtitle.one}</h4>
+            <h6>{this.state.name.title.one}</h6>
+            <h6>{this.state.data.title.one}</h6>
+            <h6>{this.state.data.subtitle.one}</h6>
             <p>{this.state.data.maintext.one}</p>
             </div>
         )

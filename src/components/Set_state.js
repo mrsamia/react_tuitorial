@@ -16,8 +16,8 @@ class Set_state extends Component {
     render() {
         return (
             <div>
-                <h3>{this.state.name}</h3>
-                <button className="btn btn-danger" onClick={this.fnct.bind(this, "MIM")}>Set State </button>
+                <h6>{this.state.name}</h6>
+                <button className="btn btn-danger mt-5" onClick={this.fnct.bind(this, "MIM")}>Set State </button>
                 <button className="btn btn-danger" onClick={this.fnct.bind(this, "Rony")}>Set State </button>
             </div>
         );

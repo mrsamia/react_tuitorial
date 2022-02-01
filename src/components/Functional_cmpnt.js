@@ -4,7 +4,7 @@ function Functional_cmpnt(props) {
 
     return (
         <div>
-            <h1>Hello I'm {props.name} and i'm from {props.country}</h1>
+            <h5>Hello I'm {props.name} and i'm from {props.country}</h5>
         </div>
     );
 }

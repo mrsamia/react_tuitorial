@@ -3,7 +3,7 @@ import React from 'react';
 function Login() {
     return (
         <div>
-            <h3>Show Login</h3>
+            <h6>Show Login</h6>
         </div>
     );
 }
@@ -11,7 +11,7 @@ function Login() {
 function Logout() {
     return (
         <div>
-            <h3>Show logout</h3>
+            <h6>Show logout</h6>
         </div>
     );
 }

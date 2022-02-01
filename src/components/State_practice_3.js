@@ -39,10 +39,10 @@ class State_practice_3 extends Component {
     render() {
         return (
             <div>
-                <h4>{this.state.age}</h4>
-                <h4>{this.state.name.school[1]}</h4>
-                <h4>{this.state.name.versity.three}</h4>
-                <h4>{this.state.item.one.subtitle}</h4>
+                <h6>{this.state.age}</h6>
+                <h6>{this.state.name.school[1]}</h6>
+                <h6>{this.state.name.versity.three}</h6>
+                <h6>{this.state.item.one.subtitle}</h6>
             </div>
         );
     }

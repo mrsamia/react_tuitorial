@@ -20,6 +20,7 @@ import Arrrow_function from './component_practice/Arrrow_function';
 import Sttate from './component_practice/Sttate';
 import SET_STATE from './component_practice/SET_STATE';
 import Condittion from './component_practice/Condittion';
+import Form from './components/Form';
 
 
 function App() {
@@ -61,15 +62,17 @@ function App() {
         <Condition_prac_3 condition={true} />
       </div>
 
+
+
       <div className="mt-5 mb-5">
       <h1>This is Practice Part</h1>
       <Header name="One"/>
       <Buttton name="Read more"/><br></br>
 
-      <h6>Click event is not working</h6>
+      <h6>Click event is working</h6>
       <Click_event/><br></br>
 
-      <h6>Passing argument with onclick event handler is not working</h6>
+      <h6>Passing argument with onclick event handler is working</h6>
       <Passing_argu/><br></br>
 
 
@@ -78,6 +81,10 @@ function App() {
       <SET_STATE/><br></br>
       <Condittion condition={true}/>
       <Condittion condition={false}/>
+      </div>
+
+      <div>
+        <Form/>
       </div>
 
     </div>

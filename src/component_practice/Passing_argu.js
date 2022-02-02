@@ -9,7 +9,7 @@ function pass(a){
 
     return (
         <div>
-            <Buttton name="passing Argument" onClick={pass.bind(this,"This is Passing Argument")}/>
+            <Buttton name="passing Argument" handle_click={pass.bind(this,"This is Passing Argument")}/>
         </div>
     );
 }

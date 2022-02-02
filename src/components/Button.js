@@ -1,7 +1,8 @@
 function Button(props) {
+
     return (
         <div>
-            <button className="btn btn-warning text-white">{props.name}</button>
+            <button className="btn btn-warning text-white" onClick={props.handle_click} style={props.style}>{props.name}</button>
         </div>
     );
 }

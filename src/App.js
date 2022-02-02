@@ -21,6 +21,8 @@ import Sttate from './component_practice/Sttate';
 import SET_STATE from './component_practice/SET_STATE';
 import Condittion from './component_practice/Condittion';
 import Form from './components/Form';
+import Onchange from './component_3/Onchange';
+import Onchange_2 from './component_3/Onchange_2';
 
 
 function App() {
@@ -84,7 +86,9 @@ function App() {
       </div>
 
       <div>
-        <Form/>
+        <Form/><br></br>
+        <Onchange/><br></br><br></br>
+        <Onchange_2/><br></br>
       </div>
 
     </div>

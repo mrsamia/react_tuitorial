@@ -1,0 +1,26 @@
+import React, { Component } from 'react';
+
+class Textarea extends Component {
+
+constructor(){
+    super();
+    this.state={
+        userinput:""
+    }
+}
+handler=(event)=>{
+var Myvalue=event.target.value;
+this.setState({userinput:Myvalue})
+}
+
+    render() {
+        return (
+            <div>
+                <textarea className='innput' onChange={this.handler} placeholder='Your message' />
+                <p>{this.state.userinput}</p>
+            </div>
+        );
+    }
+}
+
+export default Textarea;

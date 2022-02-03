@@ -23,6 +23,10 @@ import Condittion from './component_practice/Condittion';
 import Form from './components/Form';
 import Onchange from './component_3/Onchange';
 import Onchange_2 from './component_3/Onchange_2';
+import Mul_onchge from './component_3/Mul_onchge';
+import Onsubmit from './component_3/Onsubmit';
+import Mul_onchange_2 from './component_3/Mul_onchange_2';
+import Textarea from './component_3/Textarea';
 
 
 function App() {
@@ -88,7 +92,14 @@ function App() {
       <div>
         <Form/><br></br>
         <Onchange/><br></br><br></br>
-        <Onchange_2/><br></br>
+        <Onchange_2/><br></br><br></br>
+        <Mul_onchge/><br></br>
+       
+        <Onsubmit/><br></br>
+        <h6>Multiple Input form Onchange Handler</h6>
+        <Mul_onchange_2/><br></br><br></br>
+        <p>This is Textarea</p>
+        <Textarea/>
       </div>
 
     </div>

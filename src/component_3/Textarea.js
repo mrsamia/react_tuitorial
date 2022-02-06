@@ -16,7 +16,7 @@ this.setState({userinput:Myvalue})
     render() {
         return (
             <div>
-                <textarea className='innput' onChange={this.handler} placeholder='Your message' />
+                <textarea className='innput' onChange={this.handler} placeholder='This is a Text area' />
                 <p>{this.state.userinput}</p>
             </div>
         );

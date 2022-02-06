@@ -19,7 +19,7 @@ function Logout() {
 
 function Conditional_return(props) {
     const condition = props.condition
-    if (condition == true) {
+    if (condition === true) {
         return (
             <Login />
         )

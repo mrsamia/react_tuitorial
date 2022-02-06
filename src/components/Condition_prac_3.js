@@ -12,7 +12,7 @@ function Condition_prac_3(props){
 
     const condition = props.condition
 
-    if(condition==true){
+    if(condition===true){
         return(
             <Button name="Condition Button" handle_click={click} 
             style={{ backgroundColor: 'red', color: 'white' , fontSize: 20, height:60, width:250}}/>

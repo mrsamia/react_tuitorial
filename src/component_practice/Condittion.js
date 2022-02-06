@@ -27,7 +27,7 @@ function Condittion(props) {
 
     const condition = props.condition
 
-    if (condition == true) {
+    if (condition === true) {
         return (                                                
             <Condition_1 />
         )

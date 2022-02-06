@@ -27,6 +27,9 @@ import Mul_onchge from './component_3/Mul_onchge';
 import Onsubmit from './component_3/Onsubmit';
 import Mul_onchange_2 from './component_3/Mul_onchange_2';
 import Textarea from './component_3/Textarea';
+import Textarea_2 from './component_3/Textarea_2';
+import MulTextarea from './component_3/MulTextarea';
+import Input_props from './component_3/Input_props';
 
 
 function App() {
@@ -98,8 +101,17 @@ function App() {
         <Onsubmit/><br></br>
         <h6>Multiple Input form Onchange Handler</h6>
         <Mul_onchange_2/><br></br><br></br>
-        <p>This is Textarea</p>
+
+        <p>Textarea form Onchange Handler</p>
         <Textarea/>
+        <Textarea_2/><br></br><br></br>
+        <h6> Multiple Textarea form Onchange Handler</h6>
+        <MulTextarea/>
+      </div>
+
+      <div className="mt-5 mb-5">
+        
+        <Input_props name="username" placeholder="Name" /><br></br><br></br>
       </div>
 
     </div>

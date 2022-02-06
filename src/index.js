@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import PageOne from './pages/PageOne';
 import PageTwo from './pages/PageTwo';
 import PageThree from './pages/PageThree';
+import PageFour from './pages/PageFour';
 import { Route, Link, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 
@@ -18,7 +19,7 @@ const myrouter = (
         <Link to="/PageOne">PageOne</Link>
         <Link to="/PageTwo">PageTwo</Link>
         <Link to="/PageThree">PageThree</Link>
-
+        <Link to="/PageFour">PageFour</Link>
       </ul>
 
       <Routes>
@@ -26,6 +27,7 @@ const myrouter = (
       <Route path="PageOne" element={<PageOne/>} />
       <Route path="PageTwo" element={<PageTwo/>} />
       <Route path="PageThree" element={<PageThree/>} />
+      <Route path="PageFour" element={<PageFour/>} />
       </Routes>
 
       
